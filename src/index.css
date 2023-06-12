@@ -1,0 +1,149 @@
+*{
+  box-sizing:border-box;
+
+}
+body{
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav{
+  height: 70px;
+  display: flex;
+  padding: 5px 50px;
+  box-shadow:0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1) ;
+}
+.nav--logo{
+  max-width: 100px;
+}
+
+/* hero section */
+
+.hero{
+  margin-top:10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ 
+  border-radius: 17px;
+  transition:transform 0.4s;
+}
+.hero-img:hover{
+  transform:scale(1.03);
+}
+
+/* Flexbox-based solution: */
+.images--flex {
+width: 100%;
+display: flex; 
+
+}
+
+.images--flex > * {
+flex: 1;
+}
+
+.images--flex__inner {
+display: flex;
+flex-wrap: wrap;
+align-items: stretch;
+}
+
+.images--flex__inner > * {
+width: 50%;
+height: 50%;
+}
+
+/* CSS Grid Solution: */
+.images--grid {
+display: grid;
+width: 100%;
+height: 80vh;
+grid-template-rows: repeat(2, 1fr);
+grid-template-columns: repeat(4, 1fr);
+grid-auto-flow: dense;
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+
+}
+
+.images--grid > *:first-child {
+grid-column: span 2;
+grid-row: span 2;
+
+}
+
+.section-heading{
+  margin-left: 30px;
+  margin-bottom: 0px;
+}
+.section-paragraph{
+  margin-left: 40px;
+}
+
+/* card */
+.cardSection{
+  margin-top: 100px;
+  margin-bottom:50px;
+  padding: 20px auto;
+  display: flex;
+  flex-direction:row ;
+  gap:5px;
+  overflow: auto;
+}
+.card {
+  margin: 0 13px;
+  min-width: 300px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: transform 0.3s;
+  box-shadow:0px 2.98256px 10px rgba(0, 0, 0, 0.1) ;
+
+}
+.card:hover{
+  transform: rotateZ(2deg) scale(1.03);
+  transform-origin: center center;
+  box-shadow:0px 2.98256px 10px rgba(0, 0, 0, 0.1) ;
+
+}
+
+
+.card-image {
+  width: 100%;
+  height: 235px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card-price {
+  font-size: 16px;
+  color: #888;
+}
+
+/* footer */
+footer{
+  background-color: #8888884b;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+  justify-content: space-between;
+}
+.footer-rightSection{
+display: flex;
+
+}
