@@ -50,6 +50,13 @@ const dummyData = [
     description:" Introducing Mr. Leo2 is twin of Mr. Leo. "
 
   },
+  {
+    id:6,
+    name:'Asmita Chimali',
+    price:'amulya',
+    imageUrl:'https://scontent.fktm6-1.fna.fbcdn.net/v/t39.30808-6/330397693_5951682788259217_2916237684985928416_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=bLJg9GsiivEAX83lB_f&_nc_ht=scontent.fktm6-1.fna&oh=00_AfAiUdt7Ooe6thlYEPf5WOvUGaY_q8wtEw_yz3Bn0b7YwQ&oe=648D973A',
+    description:'Nepal adhirajya lai sakera Japan sakna hideki don Asmita chimali. <3.'
+  }
   
 ];
 
