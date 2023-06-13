@@ -4,9 +4,6 @@ import Herosection from './components/Herosection';
 import Card from './components/Card';
 import Footer from './components/Footer';
 
-
-
-
 const dummyData = [
   {
     id:1,
@@ -64,9 +61,7 @@ function App() {
       {dummyData.map(cat=>(
         <Card 
         key={cat.id}
-        imageUrl={cat.imageUrl}
-        name={cat.name}
-        price={cat.price}/>
+        {...cat}/>
       ))}
       
     </section>

@@ -17,7 +17,7 @@ function Hero() {
         Online Experiences
     </h2>
     <p className="section-paragraph">
-        Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.
+        This is a opensource react project feel free to learn or add to it. its github link is <a href="https://github.com/ajahi/airdnd-for-cats">Here</a>
     </p> 
         </section>
      );
