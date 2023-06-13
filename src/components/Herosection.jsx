@@ -8,7 +8,7 @@ function Hero() {
         <img className="hero-img" src="https://placekitten.com/600/300" alt=""/>
         <img className="hero-img" src="https://placekitten.com/900/800" alt=""/>
         <img className="hero-img" src="https://placekitten.com/1200/400" alt=""/>
-        <img className="hero-img" src="https://placekitten.com/1200/400" alt=""/>
+        <img className="hero-img" src="https://placekitten.com/1200/300" alt=""/>
  
               
         
@@ -18,6 +18,12 @@ function Hero() {
     </h2>
     <p className="section-paragraph">
         This is a opensource react project feel free to learn or add to it. its github link is <a href="https://github.com/ajahi/airdnd-for-cats">Here</a>
+
+        <br />
+        <span className='special'>
+        Click on the card to view description of cat.
+        </span>
+       
     </p> 
         </section>
      );
