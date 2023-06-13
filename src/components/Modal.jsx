@@ -4,7 +4,7 @@ import React from 'react';
         return ( 
         <div className='overlay' onClick={toggleModal}>
            <div className="overlay-cover" onClick={e=>e.stopPropagation()}>
-                <img src={selectedCat.imageUrl} alt='image of ${props.imageUrl}' height={400} />
+                <img src={selectedCat.imageUrl} alt='image of ${props.imageUrl}'/>
                 <div className="overlay-content">
                     <h2>{selectedCat.name}</h2>
                     <p>{selectedCat.description}</p>

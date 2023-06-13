@@ -170,13 +170,33 @@ display: flex;
   width:500px;
   background-color:#fff;
   padding:10px;
+  overflow: scroll;
+}
+
+.overlay-cover img{
+  /* overlay-content and overlaycover has same height */
+  height:400px;
 }
 .overlay-cover{
   display: flex;
 }
+@media (max-width: 768px) {
+  .overlay-cover {
+    flex-direction: column;
+    
+  }
+  .overlay-cover img{
+    width:300px;
+  }
+  .overlay-content{
+    width:300px;
+  }
+
+}
 
 /* special paragraph */
 .special{
+  
   font-size: 25px;
   font: bold;
   
